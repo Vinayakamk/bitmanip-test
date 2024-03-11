@@ -1,5 +1,5 @@
 # bitmanip-test
-this simple lines of code could test the bit manipulation instructions.
+This simple lines of code could test the bit manipulation instructions.
 # Method 
 To check the instruction is valid or not by compiling its c code with gnu `riscv64-unknow-elf-gcc` compiler and checking the intruction present in the genarated output file.s in corresponding directory
 # Usage
