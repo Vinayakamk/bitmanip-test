@@ -49,8 +49,7 @@ def run_test(file_path, instr_name) -> bool:
     label_end = content.find('ret')
     text = content[label_begin:label_end:1]
     print('text=',text)
-    #instr_pos = text.find(instr_name)
-    #print('instr_pos',instr_pos)
+
     if instr_name in text:
         return True
     else: 
